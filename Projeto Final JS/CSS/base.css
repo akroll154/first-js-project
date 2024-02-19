@@ -1,0 +1,95 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+body {
+
+    background-image: url('../Imagem/mais\ vaquinhas.jpg');
+    background-size: 100%;
+
+
+}
+
+
+nav {
+    margin-top: 0px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+
+
+}
+
+nav ul {
+
+    list-style: none;
+    background-color: rgb(33, 13, 3);
+    text-align: center;
+
+}
+
+nav li {
+
+    display: inline-block;
+
+
+}
+
+ul a {
+
+    color: white;
+    display: block;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+
+
+
+}
+
+nav img {
+
+    height: 70px;
+    margin-top: -85px;
+    margin-bottom: 10px;
+
+
+}
+
+
+#icat:hover,
+#ipro:hover,
+#ifc:hover,
+#ips:hover,
+#icad:hover {
+    color: rgb(245, 181, 78);
+    transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+
+}
+
+
+main {
+
+    width: 1200px;
+    height: 100%;
+    background-color: rgba(54, 21, 4, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-left: 75px groove rgb(33, 13, 3);
+    border-right: 75px ridge rgb(33, 13, 3);
+    margin-top: 1%;
+    z-index: 1;
+    display: block;
+    padding-bottom: 1000px;
+
+}

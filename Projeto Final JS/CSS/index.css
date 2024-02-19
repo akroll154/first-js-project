@@ -1,0 +1,185 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+body {
+
+    background-image: url('../Imagem/mais\ vaquinhas.jpg');
+    background-size: 100%;
+
+
+}
+
+
+nav {
+    margin-top: 0px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+
+
+}
+
+nav ul {
+
+    list-style: none;
+    background-color: rgb(33, 13, 3);
+    text-align: center;
+
+}
+
+nav li {
+
+    display: inline-block;
+
+
+}
+
+ul a {
+
+    color: white;
+    display: block;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+
+
+
+}
+
+nav img {
+
+    height: 70px;
+    margin-top: -85px;
+    margin-bottom: 10px;
+
+
+}
+
+
+#icat:hover,
+#ipro:hover,
+#ifc:hover,
+#ips:hover {
+    color: rgb(245, 181, 78);
+    transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+
+}
+
+
+main {
+
+    width: 1200px;
+    height: 100%;
+    background-color: rgba(54, 21, 4, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-left: 75px groove rgb(33, 13, 3);
+    border-right: 75px ridge rgb(33, 13, 3);
+    margin-top: 15%;
+    z-index: 1;
+    display: block;
+    padding-bottom: 2300px;
+
+}
+
+
+h2 {
+
+    color: rgb(245, 181, 78);
+    text-align: center;
+    margin-top: 80%;
+
+}
+
+.c1 {
+    margin-top: 7%;
+    height: 200px;
+    width: 400px;
+}
+
+.c1>img {
+    height: 200px;
+    width: 226px;
+}
+
+#i1 {
+    width: 950px;
+    height: 400px;
+}
+
+#i1>img {
+    width: 750px;
+    height: 400px;
+}
+
+button {
+    height: 50px;
+    width: 80px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(54, 21, 4, 1);
+    border: 2px solid rgb(245, 181, 78);
+    border-radius: 25px;
+    color: white;
+    transition: 0.5s;
+    margin-right: 34px;
+    text-align: center;
+    
+
+}
+
+button:hover {
+    color: rgb(245, 181, 78);
+    transition: 0.5s;
+    background-color: rgb(26, 9, 1);
+}
+
+p {
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+#ibolinha {
+    height: 50px;
+    width: 300px;
+    margin-top: 0%;
+    margin-left: 0%;
+    padding-right: 480px;
+    padding-left: 455px;
+    display: inline-flex;
+    background-color: rgb(33, 13, 3);
+
+}
+
+#ibolinha>div {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+video {
+    height: 650px;
+    width: 1100px;
+    margin-top: 2%;
+    margin-left: 4.5%;
+
+}

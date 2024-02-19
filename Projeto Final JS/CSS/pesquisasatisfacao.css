@@ -1,0 +1,63 @@
+h1 {
+
+    margin-top: 58%;
+    text-align: center;
+    color: rgb(245, 181, 78);
+    padding: 15px;
+    margin-bottom: 50px;
+
+}
+
+label {
+
+
+    font-size: 30px;
+    color: white;
+
+}
+
+input {
+
+    height: 30px;
+    width: 40px;
+    margin-right: -10px;
+    transition: 0.5s;
+    border-radius: 5px;
+
+}
+
+input:hover {
+    background-color: rgb(245, 181, 78);
+    transition: 0.5;
+
+}
+
+
+input+span {
+
+    font-size: 40px;
+    color: white;
+    margin-left: 8px;
+    margin-right: 30px;
+
+}
+
+hr {
+
+    color: rgb(245, 181, 78);
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+
+.iminor {
+
+    font-size: 30px;
+
+}
+
+#ips {
+
+    color: rgb(245, 181, 78);
+
+}

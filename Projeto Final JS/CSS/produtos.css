@@ -1,0 +1,460 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#inov2 {
+
+    border-top: 2px solid rgb(245, 181, 78);
+    border-bottom: 2px solid rgb(245, 181, 78);
+
+}
+
+main {
+
+    height: 100%;
+    margin-bottom: 0%;
+}
+
+h1,
+h2 {
+
+    margin-bottom: 1%;
+    text-align: center;
+    color: rgb(245, 181, 78);
+
+}
+
+
+
+#icat {
+
+    color: rgb(245, 181, 78);
+
+}
+
+#iqueijo {
+
+    margin-top: 60px;
+    background-color: rgba(54, 21, 4, 1);
+    color: rgb(245, 181, 78);
+
+
+}
+
+#igeleia {
+
+    background-color: rgb(54, 21, 4);
+    margin-top: -10px;
+    border-left: 75px groove rgb(33, 13, 3);
+    border-right: 75px ridge rgb(33, 13, 3);
+    width: 1200px;
+    margin-left: -75px;
+    height: 2000px;
+
+
+}
+
+
+#ioutros {
+
+    background-color: rgb(54, 21, 4);
+    margin-top: 120%;
+    height: 2500px;
+    border-left: 75px groove rgb(33, 13, 3);
+    border-right: 75px ridge rgb(33, 13, 3);
+    margin-left: -76px;
+    width: 1200px;
+
+
+}
+
+
+
+#iqueijo>img,
+#igeleia>img,
+#ioutros2>img {
+
+    width: 50%;
+    margin-left: 25%;
+    border: 2px solid rgb(245, 181, 78);
+    border-radius: 15px;
+
+}
+
+
+#iqueijo>h1,
+#igeleia>h1,
+#ioutros>h1 {
+
+    font-size: 50px;
+    padding-top: 15px;
+
+}
+
+#iqueijo>p {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+    color: rgb(245, 181, 78);
+
+
+}
+
+hr {
+
+    color: rgb(245, 181, 78);
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+
+#iqueijo2 {
+
+
+    border-left: 75px groove rgb(33, 13, 3);
+    border-right: 75px ridge rgb(33, 13, 3);
+    width: 1200px;
+    margin-left: -75px;
+
+
+}
+
+#iqueijo2 img {
+
+    width: 50%;
+    margin-left: 1%;
+    border: 15px ridge rgb(107, 65, 43);
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+
+#iqueijo2 hr {
+
+    color: rgb(245, 181, 78);
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+
+}
+
+#iqueijo2 p {
+
+    display: inline-block;
+    padding: 0px;
+    color: rgb(245, 181, 78);
+    font-size: 25px;
+
+
+}
+
+.cdown a {
+
+    color: rgb(228, 191, 131);
+    text-decoration: none;
+
+}
+
+.cdowna a {
+
+    color: rgb(245, 181, 78);
+    text-decoration: none;
+
+}
+
+.cdowni a {
+
+    color: rgb(197, 88, 25);
+    text-decoration: none;
+
+}
+
+#iesp a {
+    color: rgb(226, 62, 62);
+    text-decoration: none;
+
+}
+
+#idivcapapreta,
+#idivrosso,
+#idivdefumado,
+#idivmantiqueira,
+#iespp,
+#idivbomsucesso,
+#idivtemperado,
+#idivmeiacura,
+#idivazeitadomanj,
+#idivcanastra {
+
+    display: inline-flex;
+    margin-left: 5%;
+
+}
+
+
+
+#idivcapapreta>div,
+#idivrosso>div,
+#idivdefumado>div,
+#idivmantiqueira>div,
+#iespp>div,
+#idivbomsucesso>div,
+#idivtemperado>div,
+#idivmeiacura>div,
+#idivazeitadomanj>div,
+#idivcanastra>div {
+
+    display: inline-block;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 1%;
+    text-align: justify;
+    font-size: 25px;
+
+}
+
+#inav2 {
+
+    background-color: rgb(54, 21, 4);
+    height: 20px;
+    width: 100%;
+    display: inline-flex;
+
+}
+
+#inav2>a {
+
+
+    font-size: 20px;
+    color: rgb(245, 181, 78);
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+#igeleia2 {
+
+    background-color: rgb(54, 21, 4);
+    margin-top: -25px;
+    border-left: 75px groove rgb(33, 13, 3);
+    border-right: 75px ridge rgb(33, 13, 3);
+    width: 1200px;
+    margin-left: -75px;
+    height: 2700px;
+
+}
+
+#igeleia2 div {
+
+    display: inline-block;
+    padding-left: 15%;
+    padding-right: 5%;
+    text-align: center;
+    font-size: 25px;
+
+
+}
+
+#igeleia2 p {
+
+    display: inline-block;
+    padding: 0px;
+    color: rgb(245, 181, 78);
+    font-size: 25px;
+
+}
+
+#igeleia p {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(245, 181, 78);
+
+
+}
+
+#igeleia2 img {
+
+    width: 40%;
+    margin-left: 7%;
+    border: 15px ridge rgb(107, 65, 43);
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+
+#ioutros2 p {
+
+    text-align: center;
+    font-size: 25px;
+    color: rgb(245, 181, 78);
+    padding-top: 10px;
+
+
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    margin-top: 4%;
+    margin-right: 0px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(53, 170, 53);
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+button:hover {
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+#ip1,
+#ip2,
+#ip3,
+#ip4,
+#ip5,
+#ip6,
+#ip7,
+#ip8,
+#ip9,
+#ip10 {
+
+    transition: 3s;
+
+}
+
+#ip12,
+#ip21,
+#ip31,
+#ip41,
+#ip51,
+#ip61,
+#ip71,
+#ip81,
+#ip91,
+#ip101 {
+
+    transition: 3s;
+
+}
+
+#icarrossel {
+    height: 600px;
+    width: 1200px;
+    position: absolute;
+    display: inline-flex;
+    background-color: rgb(33, 13, 3);
+}
+
+
+
+#icarrossel img {
+    width: 800px;
+    height: 600px;
+}
+
+
+
+#ibolinha {
+    height: 40px;
+    width: 1200px;
+    margin-top: 50.025%;
+    margin-left: 0%;
+    display: inline-flex;
+    background-color: rgb(33, 13, 3);
+
+}
+
+#ibolinha>div {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#iparagrafo2 {
+    font-size: 25px;
+    color: rgb(245, 181, 78);
+    text-align: center;
+}
+
+#iteste {
+    background-color: rgb(107, 65, 43);
+    height: 100px;
+    width: 100%;
+    margin-left: 0%;
+    display: block;
+    margin-top: 0%;
+    transition: 1s;
+
+}
+
+#iteste>p {
+    margin-left: 120px;
+    padding-top: 100px;
+    font-size: 30px;
+    color: bisque;
+}
+
+#iteste2 {
+    width: 0px;
+    transition: 1s;
+
+}
+
+#imain {
+    transition: 1.5s;
+}
+
+#iteste {
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+}
+
+#ccarrinho,
+#ccarrinho4 {
+    margin-left: 5.5%;
+    padding-right: 5%;
+    color: bisque;
+
+}
+
+#ccarrinho2,
+#ccarrinho3 {
+    color: bisque;
+}
+
+#iteste>div>p {
+    font-size: 30px;
+}
+
+#ivoltar {
+    margin-top: 38%;
+    margin-left: 3%;
+    width: 300px;
+    background-color: rgb(33, 13, 3);
+
+}
+
+#ccarrinho5 {
+    margin-left: 5.5%;
+    padding-right: 5%;
+    color: bisque;
+    margin-top: 0%;
+
+}
+
+#inav2>a:hover {
+    color: rgb(255, 203, 118);
+    transition: 0.5s;
+}
+
+#inav2>a {
+    transition: 0.5s;
+}

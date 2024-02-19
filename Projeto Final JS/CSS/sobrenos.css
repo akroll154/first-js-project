@@ -1,0 +1,75 @@
+h1 {
+
+    color: rgb(245, 181, 78);
+    margin-top: 47%;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+video {
+
+    margin-top: 2%;
+    width: 100%;
+    margin-bottom: 2.5%;
+    border-bottom: 2px solid rgb(245, 181, 78);
+    border-top: 2px solid rgb(245, 181, 78);
+
+}
+
+#iimg,
+#iimg2 {
+
+    width: 100%;
+    background-color: rgb(35, 10, 1);
+    height: 240px;
+    margin-top: 30px;
+    border-left: 75px groove rgb(33, 13, 3);
+    border-right: 75px ridge rgb(33, 13, 3);
+    margin-left: -75px;
+
+
+}
+
+#iimg>div {
+
+    display: inline-flex;
+
+}
+
+#iimg img {
+
+    width: 70%;
+    margin: 2%;
+    border: 2px solid rgb(245, 181, 78);
+    border-radius: 5px;
+
+}
+
+#iimg2 img {
+
+    width: 80%;
+    border: 2px solid rgb(245, 181, 78);
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: 10%;
+
+}
+
+p {
+
+    color: rgb(245, 181, 78);
+    margin: 2%;
+    margin-top: 0px;
+    font-size: 25px;
+    text-align: justify;
+
+}
+
+hr {
+
+    color: rgb(245, 181, 78);
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}

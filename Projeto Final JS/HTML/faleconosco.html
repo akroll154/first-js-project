@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+
+    <link rel="stylesheet" href="../CSS/base.css">
+    <link rel="stylesheet" href="../CSS/faleconosco.css">
+
+</head>
+
+
+<body>
+
+
+    <nav>
+        <ul>
+            <li><a id="icat" style=" transition: 0.5s;
+                -o-transition: 0.5s;
+                -moz-transition: 0.5s;" href="../HTML/produtos.html">PRODUTOS</a></li>
+            <li><a id="ipro" style=" transition: 0.5s;
+                -o-transition: 0.5s;
+                -moz-transition: 0.5s;" href="../HTML/faleconosco.html">FALE CONOSCO</a></li>
+            <li><a id="ifc" style=" transition: 0.5s;
+                -o-transition: 0.5s;
+                -moz-transition: 0.5s;" href="../HTML/sobrenos.html">SOBRE NÓS</a></li>
+            <li><a id="ips" style=" transition: 0.5s;
+                    -o-transition: 0.5s;
+                    -moz-transition: 0.5s;" href="../HTML/pesquisasatisfacao.html">PESQUISA DE SATISFAÇÃO</a></li>
+            <li><a id="icad" style=" transition: 0.5s;
+                    -o-transition: 0.5s;
+                    -moz-transition: 0.5s;" href="../HTML/cadastro.html">CADASTRO</a></li>
+
+
+
+
+        </ul>
+
+        <a href="../HTML/index02.html"><img src="../Imagem/logo sem bg.png" alt=""></a>
+        <div style="margin-bottom: 0px; height: 100px; margin-top: -45px; margin-left: 25%;">
+            <a style="margin-left: 90%; text-decoration: none;" href=""><img
+                    style="height: 45px; width: 45px; margin-bottom: 0px; text-decoration: none;"
+                    src="../Imagem/shoppingcart.png" alt=""> <a id="iparagrafo"
+                    style="font-size: 20px; margin-bottom: 0px; text-decoration: none; color: rgb(226, 62, 62);"
+                    href="">0</a></a>
+
+    </nav>
+
+    <main>
+
+        <div id="ifaleconosco">
+
+            <p>Fale Conosco!</p>
+            <p>Qualquer dúvida entre em contato. Preencha os campos abaixo e clique em "Enviar".</p>
+
+            <hr>
+
+            <form action="">
+                <label for="inome">Nome:</label>
+                <br>
+                <input onblur="verificarChar('inome')" type="text" name="nome" id="inome">
+                <br>
+                <span id="erroinome"></span>
+                <br>
+
+                <label for="iemail">E-mail:</label>
+                <br>
+                <input onblur="verificarChar6('iemail')" type="text" name="email" id="iemail">
+                <br>
+                <span id="erroiemail"></span>
+
+                <hr>
+                <label for="itexto">Texto:</label>
+                <br>
+                <textarea onblur="verificarTextArea('itexto')" name="texto" id="itexto" cols="60" rows="15"></textarea>
+                <br>
+                <span id="erroitexto"></span>
+                <br>
+                <br>
+
+                <input disabled onmouseover="verificarCor('ienviar')"
+                    style="width: 100px; height: 45px; font-size: 25px;" type="submit" id="ienviar" value="ENVIAR">
+                <br><br>
+                <span id="erro"></span>
+            </form>
+        </div>
+
+    </main>
+
+
+
+
+</body>
+
+<script src="../JS/faleconosco.js"></script>
+
+
+</html>

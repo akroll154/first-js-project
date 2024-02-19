@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+
+    <link rel="stylesheet" href="../CSS/base.css">
+    <link rel="stylesheet" href="../CSS/produtos.css">
+    <link rel="stylesheet" href="../CSS/tabela.css">
+
+</head>
+
+
+<body style="height: 100%;">
+
+
+    <nav>
+
+        <ul>
+            <li><a id="icat" style=" transition: 0.5s;
+                    -o-transition: 0.5s;
+                    -moz-transition: 0.5s;" href="../HTML/produtos.html">PRODUTOS</a></li>
+            <li><a id="ipro" style=" transition: 0.5s;
+                    -o-transition: 0.5s;
+                    -moz-transition: 0.5s;" href="../HTML/faleconosco.html">FALE CONOSCO</a></li>
+            <li><a id="ifc" style=" transition: 0.5s;
+                    -o-transition: 0.5s;
+                    -moz-transition: 0.5s;" href="../HTML/sobrenos.html">SOBRE NÓS</a></li>
+            <li><a id="ips" style=" transition: 0.5s;
+                        -o-transition: 0.5s;
+                        -moz-transition: 0.5s;" href="../HTML/pesquisasatisfacao.html">PESQUISA DE SATISFAÇÃO</a></li>
+            <li><a id="icad" style=" transition: 0.5s;
+                        -o-transition: 0.5s;
+                        -moz-transition: 0.5s;" href="../HTML/cadastro.html">CADASTRO</a></li>
+
+
+        </ul>
+
+        <a href="../HTML/index02.html"><img src="../Imagem/logo sem bg.png" alt=""></a>
+        <div style="margin-bottom: 0px; height: 100px; margin-top: -45px; margin-left: 25%;">
+            <a onclick="teste('iteste')" style="margin-left: 90%; text-decoration: none;" href="#iteste"><img
+                    style="height: 45px; width: 45px; margin-bottom: 0px; text-decoration: none;"
+                    src="../Imagem/shoppingcart.png" alt=""> <a id="iparagrafo"
+                    style="font-size: 20px; margin-bottom: 0px; text-decoration: none; color: rgb(226, 62, 62);"
+                    href="">0</a></a>
+
+        </div>
+
+
+    </nav>
+
+    <div id="iteste">
+        <p id="iteste3"></p>
+        <hr id="iteste2">
+
+        <div style="display: inline-flex; width: 90%;">
+
+            <p id="ccarrinho"></p>
+            <p id="ccarrinho2"></p>
+            <p id="ccarrinho3"></p>
+            <p id="ccarrinho4"></p>
+            <p id="ccarrinho5"></p>
+
+
+            <button onclick="altDisplay()" id="ivoltar" style="display: none;">Voltar aos produtos</button>
+
+        </div>
+
+
+
+
+    </div>
+
+    <main id="imain">
+
+
+        <div>
+
+            <h1 style="margin-top: 47%; margin-bottom: 1%;">Produtos</h1>
+
+            <hr>
+
+            <div id="inav2">
+                <a style="margin-left: 35%;" href="#iqueijo">QUEIJOS</a> <a href="#igeleia">GELEIAS</a> <!-- <a
+                    href="#ioutros">OUTROS</a> -->
+
+            </div>
+            <hr>
+
+            <!--Carrossel Produtos-->
+
+            <p id="iparagrafo2">Queijos</p>
+            <br>
+            <div id="icarrossel">
+
+                <div style="margin-left: 17.2%;" id="di1">
+                    <img src="../Imagem/queijo.jpg" alt="" id="imgatual">
+                </div>
+
+            </div>
+
+
+            <div id="ibolinha">
+
+                <div id="i11" style="margin-left: 42%; background-color: cornflowerblue;"></div>
+                <div id="i22"></div>
+                <div id="i33"></div>
+                <div id="i44"></div>
+                <div id="i55"></div>
+                <div id="i66"></div>
+
+
+            </div>
+
+        </div>
+
+        <!--queijos-->
+
+        <div id="iqueijo">
+
+
+            <div id="iqueijo2">
+
+
+                <p style="text-align: center;
+                    font-size: 25px;">Queijo não é tudo igual! Existem diversas regiões produtoras pelo Brasil, cada
+                    qual apresentando
+                    seus
+                    queijos com seus únicos sabores.</p>
+
+                <hr>
+
+                <br>
+
+
+                <p style="text-align: center;
+                    font-size: 25px;
+                    margin-left: 20px;">Explore a tabela abaixo e descubra o seu tipo de queijo ideal.</p>
+
+                <!--tabela-->
+
+                <table border="">
+
+                    <tr id="icaption">
+                        <td>Tipo de Queijo</td>
+                        <td>Características</td>
+                        <td>Produtor</td>
+                        <td style="height: 0px; width: 0px;"></td>
+                        <td>Nome Queijo</td>
+                        <td style="height: 0px; width: 0px;"></td>
+                        <td>Valor</td>
+
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td id="ifresc"> <a style="color: rgb(228, 191, 131);" href="#ifr">Fresco</a></td>
+                        <td style="font-size: 18px; text-align: justify;" id="icarac1">Queijos de sabor mais suave,
+                            branquinhos, por não passarem pelo processo de maturação.</td>
+                        <td class="cdown">Bom Sucesso</td>
+                        <td class="cdown">Bom Sucesso</td>
+                        <td class="cdown">Bom Sucesso</td>
+                        <td class="cdown">Bom Sucesso</td>
+
+
+
+                        <td style="height: 0px; width: 0px;"></td>
+                        <td class="cdown"><a href="#imantiqueiraminas">Mantiqueira de Minas</a></td>
+                        <td class="cdown"><a href="#itemperado">Temperado</a></td>
+                        <td class="cdown"><a href="#iazeitadomanj">Azeitado no Manjericão</a></td>
+                        <td class="cdown"> <a href="#idefumado">Defumado</a></td>
+
+
+
+                        <td style="height: 0px; width: 0px;"></td>
+                        <td class="cdown">34,90</td>
+                        <td class="cdown">34,90</td>
+                        <td class="cdown">39,90</td>
+                        <td class="cdown">35,90</td>
+
+
+                    </tr>
+
+                    <tr>
+                        <td id="imc"> <a style="color: rgb(245, 181, 78);" href="#imeiacura">Meia Cura</a></td>
+                        <td style="font-size: 18px; text-align: justify;" id="icarac2">Sabor de intensidade média,
+                            possui um tempo de maturação de até 20 dias.</td>
+                        <td class="cdowna">Bom Sucesso</td>
+                        <td class="cdowna">Roça da Cidade</td>
+                        <td class="cdowna">-</td>
+
+
+                        <td style="height: 0px; width: 0px;"></td>
+                        <td class="cdowna"><a href="#imeiacura">Meia Cura</a></td>
+                        <td class="cdowna"><a href="#icanastra">Legítimo Queijo Canastra</a></td>
+                        <td class="cdowna">-</td>
+
+                        <td style="height: 0px; width: 0px;"></td>
+                        <td class="cdowna">34,90</td>
+                        <td class="cdowna">59,90</td>
+                        <td class="cdowna">-</td>
+
+
+                    </tr>
+
+                    <tr>
+                        <td id="ic"> <a style="color: rgb(197, 88, 25);" href="#icurado">Curado</a></td>
+                        <td style="font-size: 18px; text-align: justify;" id="icarac3"> Queijo mais seco e firme, de
+                            casca amarelada e sabor levemente ácido. <br> Sabor mais intenso e conservação
+                            melhorada.</td>
+                        <td class="cdowni">Almeida Guimarães</td>
+                        <td class="cdowni">Almeida Guimarães</td>
+                        <td class="cdowni">Bom Sucesso</td>
+
+                        <td style="height: 0px; width: 0px;"></td>
+                        <td class="cdowni"><a href="#icapapreta">Capa Preta</a></td>
+                        <td class="cdowni"><a href="#irosso">Rosso</a></td>
+                        <td class="cdowni"><a href="#ibomsucesso">Bom Sucesso</a></td>
+
+                        <td style="height: 0px; width: 0px;"></td>
+                        <td class="cdowni">65,90</td>
+                        <td class="cdowni">51,90</td>
+                        <td class="cdowni">24,90</td>
+
+                    </tr>
+
+                    <tr id="iesp">
+                        <td style="height: 50px;"> <a style="color: rgb(226, 62, 62);" href="#iespeciais">Especiais</a>
+                        </td>
+                        <td style="padding: 5px;">Mix de 4 tipos de queijo</td>
+                        <td>Bom Sucesso</td>
+                        <td style="height: 0px; width: 0px;"></td>
+                        <td><a href="#imix">Mix Mantiqueira</a></td>
+                        <td style="height: 0px; width: 0px;"></td>
+                        <td>42,90</td>
+                    </tr>
+
+
+
+
+                </table>
+
+
+
+
+
+
+
+                <hr>
+
+                <h1 id="ifr" style="margin-top: 10px; font-size: 50px;">Frescos</h1>
+
+                <hr>
+
+                <!--foto queijo 1-->
+
+                <h1 id="imantiqueiraminas" style="padding-top: 10px; padding-bottom: 30px;">Mantiqueira de Minas
+                </h1>
+                <div id="idivmantiqueira">
+
+                    <img style="width: 450px; height: 400px; margin-bottom: 2%;"
+                        src="../Imagem/queijo mantiqueira de minas bom sucesso.jpg" alt="">
+
+                    <!--legenda queijo 1 ao lado-->
+
+                    <div>
+                        <p style="margin-top: 10%;">Queijo do dia-a-dia, suave,
+                            delicado e saboroso. Harmoniza
+                            com geleias, doce de leite,
+                            goiabadas e com aquele cafezinho
+                            passado na hora. Compõe saladas e
+                            sanduíches.
+                            <br>
+                            <br>
+                            Peso aproximado de 500g.
+                            <br>
+                            <br>
+                            <span id="iprecomantiqueira2">R$ 34,90</span>
+                            <span id="iprecomantiqueira" style="display: none;">34.90</span>
+                        </p>
+
+                        <button
+                            onclick="adicionarCarrinho('imantiqueiraminas', 'iparagrafo', 'ip1', 'iprecomantiqueira'), contar1('ip11')">+</button>
+                        <span style="color: white; margin-left: 2%;">Adicionar ao carrinho</span>
+                        <br>
+                        <button style="background-color: rgb(255, 70, 70);"
+                            onclick="removerCarrinho('imantiqueiraminas', 'iparagrafo', 'ip12', 'iprecomantiqueira'), contarA('ip11')">-</button>
+                        <span style="color: white; margin-left: 2%;">Remover do carrinho</span>
+                        <br>
+                        <p style="color: rgb(53, 170, 53);" id="ip1"></p>
+                        <br>
+                        <p style="color: rgb(255, 70, 70);" id="ip12"></p>
+                        <br>
+                        <p style="margin-left: 70%;" id="ip11">Quantidade: 0</p>
+
+                    </div>
+
+
+                </div>
+
+                <hr>
+
+                <!--foto queijo 2-->
+
+                <h1 id="itemperado" style="padding-top: 10px; padding-bottom: 30px;">Temperado</h1>
+
+                <div id="idivtemperado">
+
+                    <img style="width: 450px; height: 400px; margin-bottom: 2%;"
+                        src="../Imagem/queijo temperado bom sucesso.jpg" alt="">
+
+                    <!--legenda queijo 2 ao lado-->
+                    <div>
+                        <p style="margin-top: 5%;">
+                            Queijo Mantiqueira de Minas
+                            temperado com especiarias, ervas finas,
+                            pimenta e um toque especial de alho
+                            frito. Ideal para petisco, acompanhado
+                            de um bom vinho branco ou com um
+                            tinto Pinot Noir. Uma cerveja Pilsen
+                            também é uma excelente escolha.
+                            <br>
+                            <br>
+                            Peso aproximado de 500g.
+                            <br>
+                            <br>
+                            <span id="iprecotemperado2">R$ 34,90</span>
+                            <span id="iprecotemperado" style="display: none;">34.901</span>
+                        </p>
+
+
+                        <button
+                            onclick="adicionarCarrinho('itemperado', 'iparagrafo', 'ip2', 'iprecotemperado'), contar2('ip22')">+</button>
+                        <span style="color: white; margin-left: 2%;">Adicionar ao carrinho</span>
+                        <br>
+                        <button style="background-color: rgb(255, 70, 70);"
+                            onclick="removerCarrinho('itemperado', 'iparagrafo', 'ip21', 'iprecotemperado'), contarB('ip22')">-</button>
+                        <span style="color: white; margin-left: 2%;">Remover do carrinho</span>
+                        <br>
+                        <p style="color: rgb(53, 170, 53);" id="ip2"></p>
+                        <br>
+                        <p style="color: rgb(255, 70, 70);" id="ip21"></p>
+                        <br>
+                        <p style="margin-left: 70%;" id="ip22">Quantidade: 0</p>
+
+
+                    </div>
+                </div>
+
+                <hr>
+
+                <!--foto queijo 3-->
+
+                <h1 id="iazeitadomanj" style="padding-top: 10px; padding-bottom: 30px;">Azeitado no Manjericão</h1>
+
+                <div id="idivazeitadomanj">
+
+                    <img style="width: 450px; height: 400px; margin-bottom: 2%;"
+                        src="../Imagem/queijo azeitado com manjericao bom sucesso.jpg" alt="">
+
+                    <!--legenda queijo 3 ao lado-->
+                    <div>
+                        <p style="margin-top: 15%;">Queijo aromático envolto
+                            em azeite e manjericão.
+                            Uma experiência sensorial
+                            deliciosa para seu olfato e
+                            paladar.
+                            <br>
+                            <br>
+                            Peso aproximado de 500g.
+                            <br>
+                            <br>
+                            <span id="iprecoazeitadomanj2"> R$ 39,90 </span>
+                            <span id="iprecoazeitadomanj" style="display: none;">39.90</span>
+                        </p>
+
+                        <button
+                            onclick="adicionarCarrinho('iazeitadomanj', 'iparagrafo', 'ip3', 'iprecoazeitadomanj'), contar3('ip33')">+</button>
+                        <span style="color: white; margin-left: 2%;">Adicionar ao carrinho</span>
+                        <br>
+                        <button style="background-color: rgb(255, 70, 70);"
+                            onclick="removerCarrinho('iazeitadomanj', 'iparagrafo', 'ip31', 'iprecoazeitadomanj'), contarC('ip33')">-</button>
+                        <span style="color: white; margin-left: 2%;">Remover do carrinho</span>
+                        <br>
+                        <p style="color: rgb(53, 170, 53);" id="ip3"></p>
+                        <br>
+                        <p style="color: rgb(255, 70, 70);" id="ip31"></p>
+                        <br>
+                        <p style="margin-left: 70%;" id="ip33">Quantidade: 0</p>
+
+
+                    </div>
+                </div>
+
+                <hr>
+
+                <!--foto queijo 4-->
+
+                <h1 id="idefumado" style="padding-top: 10px; padding-bottom: 30px;">Defumado</h1>
+
+                <div id="idivdefumado">
+
+                    <img style="width: 450px; height: 400px; margin-bottom: 2%;"
+                        src="../Imagem/queijo defumado bom sucesso.jpg" alt="">
+
+                    <!--legenda queijo 4 ao lado-->
+
+                    <div>
+
+                        <p style="margin-top: 10%;">Sabor amadeirado, com defumado
+                            marcante e delicioso. Pode ser
+                            degustado em diferentes ocasiões.
+                            Harmonização: cervejas e vinhos.
+                            <br>
+                            <br>
+                            Peso aproximado de 500g.
+                            <br>
+                            <br>
+                            <span id="iprecodefumado2">R$ 35,90</span>
+                            <span id="iprecodefumado" style="display: none;">35.90</span>
+                        </p>
+
+                        <button
+                            onclick="adicionarCarrinho('idefumado', 'iparagrafo', 'ip4', 'iprecodefumado'), contar4('ip44')">+</button>
+                        <span style="color: white; margin-left: 2%;">Adicionar ao carrinho</span>
+                        <br>
+                        <button style="background-color: rgb(255, 70, 70);"
+                            onclick="removerCarrinho('idefumado', 'iparagrafo', 'ip41', 'iprecodefumado'), contarD('ip44')">-</button>
+                        <span style="color: white; margin-left: 2%;">Remover do carrinho</span>
+                        <br>
+                        <p style="color: rgb(53, 170, 53);" id="ip4"></p>
+                        <br>
+                        <p style="color: rgb(255, 70, 70);" id="ip41"></p>
+                        <br>
+                        <p style="margin-left: 70%;" id="ip44">Quantidade: 0</p>
+
+
+                    </div>
+                </div>
+
+                <hr>
+
+
+                <h1 id="imeiacura" style="padding-top: 10px; font-size: 50px;">Meia Cura</h1>
+
+                <hr>
+
+                <!--foto queijo a-->
+
+                <h1 id="imeiacura1" style="padding-top: 10px; padding-bottom: 30px;">Meia Cura</h1>
+
+                <div id="idivmeiacura">
+
+                    <img style="width: 450px; height: 400px; margin-bottom: 2%;"
+                        src="../Imagem/queijo meia cura bom sucesso.jpg" alt="">
+
+                    <!--legenda queijo a-->
+
+                    <div>
+
+                        <p style="margin-top: 8%;">Leve, macio e suave. Perfeito
+                            para um lanche ou acompanhar
+                            um cafezinho. Pode também ser
+                            apreciado com vinho, cachaça e
+                            cerveja.
+                            <br>
+                            <br>
+                            Peso aproximado de 500g.
+                            <br>
+                            <br>
+                            <span id="iprecomeiacura2">R$ 34,90</span>
+                            <span id="iprecomeiacura" style="display: none;">34.9001</span>
+                        </p>
+
+                        <button
+                            onclick="adicionarCarrinho('imeiacura1', 'iparagrafo', 'ip5', 'iprecomeiacura'), contar5('ip55')">+</button>
+                        <span style="color: white; margin-left: 2%;">Adicionar ao carrinho</span>
+                        <br>
+                        <button style="background-color: rgb(255, 70, 70);"
+                            onclick="removerCarrinho('imeiacura1', 'iparagrafo', 'ip51', 'iprecomeiacura'), contarE('ip55')">-</button>
+                        <span style="color: white; margin-left: 2%;">Remover do carrinho</span>
+                        <br>
+                        <p style="color: rgb(53, 170, 53);" id="ip5"></p>
+                        <br>
+                        <p style="color: rgb(255, 70, 70);" id="ip51"></p>
+                        <br>
+                        <p style="margin-left: 70%;" id="ip55">Quantidade: 0</p>
+
+
+                    </div>
+                </div>
+
+                <hr>
+
+                <!--foto queijo b-->
+
+                <h1 id="icanastra" style="padding-top: 10px; padding-bottom: 30px;">Legítimo Queijo Canastra</h1>
+
+                <div id="idivcanastra">
+
+                    <img style="width: 450px; height: 400px; margin-bottom: 2%;"
+                        src="../Imagem/queijo canastra roça da cidade 2.jpg" alt="">
+
+                    <!--legenda queijo b-->
+
+                    <div>
+
+                        <p style="margin-top: 8%;">Perfeito para uso na gastronomia e
+                            harmonizações com cervejas, vinhos,
+                            cachaças e café, e também pães,
+                            massas, doces e aperitivos. É o
+                            melhor queijo para fazer o pão de
+                            queijo. Ralado, em fatias, lascas,
+                            derretido ou gratinado, a escolha é
+                            certeira.
+                            <br>
+                            <br>
+                            Peças de aproximadamente 550 a 600g.
+                            <br>
+                            <br>
+                            <span id="iprecocanastra2">R$ 59,90</span>
+                            <span id="iprecocanastra" style="display: none;">59.90</span>
+                        </p>
+                        <button
+                            onclick="adicionarCarrinho('icanastra', 'iparagrafo', 'ip6', 'iprecocanastra'), contar6('ip66')">+</button>
+                        <span style="color: white; margin-left: 2%;">Adicionar ao carrinho</span>
+                        <br>
+                        <button style="background-color: rgb(255, 70, 70);"
+                            onclick="removerCarrinho('icanastra', 'iparagrafo', 'ip61', 'iprecocanastra'), contarF('ip66')">-</button>
+                        <span style="color: white; margin-left: 2%;">Remover do carrinho</span>
+                        <br>
+                        <p style="color: rgb(53, 170, 53);" id="ip6"></p>
+                        <br>
+                        <p style="color: rgb(255, 70, 70);" id="ip61"></p>
+                        <br>
+                        <p style="margin-left: 70%;" id="ip66">Quantidade: 0</p>
+
+                    </div>
+                </div>
+
+                <hr>
+
+                <h1 id="icurado" style="padding-top: 10px; font-size: 50px; color: rgb(245, 181, 78);">
+                    Curado
+                </h1>
+
+                <hr>
+
+                <!--foto queijo i-->
+
+                <h1 id="icapapreta" style="padding-top: 10px; padding-bottom: 30px;">Capa Preta</h1>
+
+                <div id="idivcapapreta">
+
+                    <img style="width: 450px; height: 400px; margin-bottom: 2%;"
+                        src="../Imagem/queijo capa preta almeida guimaraes.jpg" alt="">
+
+                    <!--legenda queijo i-->
+
+
+                    <div>
+                        <p style="margin-top: -20px;"> Medalha de prata 2019 V prêmio Queijo Brasil,
+                            Medalha de prata 2021 Expo Queijo, Medalha de Prata Concurso Mundial do
+                            Quejio do Brasil 2022.
+                            <br>
+                            <br>
+                            Carro chefe da família. Sabor forte,
+                            ligeiramente picante, superfície
+                            firme e espessa, devido ao processo
+                            de maturação.
+                            Pintado com polímero preto orgânico
+                            comestível, à base de algas. Queijo
+                            típico do Uruguai, recebendo lá o
+                            nome de Parmentino. Combina com
+                            um belo vinho ou cerveja. Maturado por 300 dias.
+                            <br>
+                            <br>
+                            Peso aproximado de 500g.
+                            <br>
+                            <br>
+                            <span id="iprecocapapreta2">R$ 65,90</span>
+                            <span id="iprecocapapreta" style="display: none;">65.90</span>
+                        </p>
+
+
+                        <button
+                            onclick="adicionarCarrinho('icapapreta', 'iparagrafo', 'ip7', 'iprecocapapreta'), contar7('ip77')">+</button>
+                        <span style="color: white; margin-left: 2%;">Adicionar ao carrinho</span>
+                        <br>
+                        <button style="background-color: rgb(255, 70, 70);"
+                            onclick="removerCarrinho('icapapreta', 'iparagrafo', 'ip71', 'iprecocapapreta'), contarG('ip77')">-</button>
+                        <span style="color: white; margin-left: 2%;">Remover do carrinho</span>
+                        <br>
+                        <p style="color: rgb(53, 170, 53);" id="ip7"></p>
+                        <br>
+                        <p style="color: rgb(255, 70, 70);" id="ip71"></p>
+                        <br>
+                        <p style="margin-left: 70%;" id="ip77">Quantidade: 0</p>
+
+                    </div>
+                </div>
+
+
+                <hr>
+
+                <!--foto queijo ii-->
+
+                <h1 id="irosso" style="padding-top: 10px; padding-bottom: 30px;">Rosso</h1>
+
+                <div id="idivrosso">
+
+                    <img style="width: 450px; height: 400px; margin-bottom: 2%;"
+                        src="../Imagem/queijo rosso almeida guimaraes.jpg" alt="">
+
+                    <!--legenda queijo ii-->
+
+                    <div>
+
+                        <p style="margin-top: -30px;">Medalha de Prata Concurso Prêmio CNA Brasil Artesanal, adições
+                            Aromatizantes/condimentos, 2022; Medalha de Prata Concurso Mundial do Queijo do
+                            Brasil, 2022.
+                            <br>
+                            <br>
+                            Queijo de consistência firme e
+                            uniforme, com sabor levemente
+                            picante. Excelente para petisco, em
+                            tábuas com geleias de pimenta agridoce
+                            defumada e geleias vermelhas.
+                            Pintado por corante natural derivado
+                            do carmim de cochonilha, o que o deixa
+                            mais atrativo. Pode ser degustado puro
+                            ou acompanhado de vinho ou cerveja.
+                            Maturado por 90 dias.
+                            <br>
+                            <br>
+                            Peso aproximado de 500g.
+                            <br>
+                            <br>
+                            <span id="iprecorosso2">R$ 51,90</span>
+                            <span id="iprecorosso" style="display: none;">51.90</span>
+                        </p>
+
+
+                        <button
+                            onclick="adicionarCarrinho('irosso', 'iparagrafo', 'ip8', 'iprecorosso'), contar8('ip88')">+</button>
+                        <span style="color: white; margin-left: 2%;">Adicionar ao carrinho</span>
+                        <br>
+                        <button style="background-color: rgb(255, 70, 70);"
+                            onclick="removerCarrinho('irosso', 'iparagrafo', 'ip81', 'iprecorosso'), contarH('ip88')">-</button>
+                        <span style="color: white; margin-left: 2%;">Remover do carrinho</span>
+                        <br>
+                        <p style="color: rgb(53, 170, 53);" id="ip8"></p>
+                        <br>
+                        <p style="color: rgb(255, 70, 70);" id="ip81"></p>
+                        <br>
+                        <p style="margin-left: 70%;" id="ip88">Quantidade: 0</p>
+
+                    </div>
+                </div>
+
+                <hr>
+
+                <!--foto queijo iii-->
+
+                <h1 id="ibomsucesso" style="padding-top: 10px; padding-bottom: 30px;">Bom Sucesso</h1>
+
+                <div id="idivbomsucesso">
+
+                    <img style="width: 450px; height: 400px; margin-bottom: 2%;" src="../Imagem/queijo bom sucesso.jpg"
+                        alt="">
+
+                    <!--legenda queijo iii-->
+                    <div>
+                        <p style="margin-top: 5%;">Queijo de massa cozida, semi-dura,
+                            curado por 90 dias em caverna
+                            climatizada. Com casca florida, tem
+                            sabor levemente picante e adocicado.
+                            Harmoniza com cervejas, vinhos e
+                            massas.
+                            <br>
+                            <br>
+                            Peças de 200 a 250g.
+                            <br>
+                            <br>
+                            <span id="iprecobomsucesso2">R$ 24,90</span>
+                            <span id="iprecobomsucesso" style="display: none;">24.90</span>
+                        </p>
+
+
+
+                        <button
+                            onclick="adicionarCarrinho('ibomsucesso', 'iparagrafo', 'ip9', 'iprecobomsucesso'), contar9('ip99')">+</button>
+                        <span style="color: white; margin-left: 2%;">Adicionar ao carrinho</span>
+                        <br>
+                        <button style="background-color: rgb(255, 70, 70);"
+                            onclick="removerCarrinho('ibomsucesso', 'iparagrafo', 'ip91', 'iprecobomsucesso'), contarI('ip99')">-</button>
+                        <span style="color: white; margin-left: 2%;">Remover do carrinho</span>
+                        <br>
+                        <p style="color: rgb(53, 170, 53);" id="ip9"></p>
+                        <br>
+                        <p style="color: rgb(255, 70, 70);" id="ip91"></p>
+                        <br>
+                        <p style="margin-left: 70%;" id="ip99">Quantidade: 0</p>
+
+                    </div>
+                </div>
+
+                <hr>
+
+                <h1 id="iespeciais" style="padding-top: 10px; font-size: 50px;">Especiais</h1>
+
+                <hr>
+
+                <!--foto queijo esp1-->
+
+                <h1 id="imix" style="padding-top: 10px; padding-bottom: 30px;">Mix Mantiqueira</h1>
+
+                <div id="iespp">
+
+                    <img style="width: 450px; height: 400px; margin-bottom: 2%;"
+                        src="../Imagem/queijo mix mantiqueira bom sucesso.jpg" alt="">
+
+                    <!--legenda queijo esp1-->
+
+                    <div>
+
+                        <p style="margin-top: 15%;">Mix composto por 4 tipos de queijo:
+                            Mantiqueira de Minas, temperado,
+                            defumado e capa preta. Perfeito para
+                            uma bela tábua de frios. Acompanha
+                            bem cervejas, vinhos e até uma boa
+                            cachaça.
+                            <br><br>
+                            <span id="iprecomix2">R$ 42,90</span>
+                            <span id="iprecomix" style="display: none;">42.90</span>
+                        </p>
+
+
+                        <button
+                            onclick="adicionarCarrinho('imix', 'iparagrafo', 'ip10', 'iprecomix'), contar10('ip102')">+</button>
+                        <span style="color: white; margin-left: 2%;">Adicionar ao carrinho</span>
+                        <br>
+                        <button style="background-color: rgb(255, 70, 70);"
+                            onclick="removerCarrinho('imix', 'iparagrafo', 'ip101', 'iprecomix'), contarJ('ip102')">-</button>
+                        <span style="color: white; margin-left: 2%;">Remover do carrinho</span>
+                        <br>
+                        <p style="color: rgb(53, 170, 53);" id="ip10"></p>
+                        <br>
+                        <p style="color: rgb(255, 70, 70);" id="ip101"></p>
+                        <br>
+                        <p style="margin-left: 70%;" id="ip102">Quantidade: 0</p>
+                    </div>
+                </div>
+
+                <hr>
+            </div>
+
+
+        </div>
+
+
+        <!--geleias-->
+
+        <div id="igeleia">
+
+            <h1>Geleias</h1>
+
+            <hr>
+
+            <h1>Geleias da Cris</h1>
+
+            <!--foto principal-->
+            <img style="margin-bottom: 10px;" src="../Imagem/geleias da cris 2.jpg" alt="">
+
+
+
+            <!--legenda da foto principal-->
+            <p style="text-align: center; margin: 20px;">Produzidas em Viçosa, de forma artesanal,
+                pela Cris, nutricionista, com frutas
+                orgânicas, pouco açúcar demerara orgânico
+                e muito carinho.
+                Leves e deliciosas para acompanhar
+                torradas, pães, queijos, iogurte natural, pão
+                de queijo, bolos e também usadas no
+                preparo de drinks.</p>
+            <p>Sabores diversos: </p>
+
+            <ul type="none" style="text-align: center; font-size: 25px; color: rgb(197, 88, 25)">
+                <li><b>Morango com Cabernet Sauvignon Light</b></li>
+                <li><b>Mexerica Light</b></li>
+                <li><b>Frutas Vermelhas com Hibisco</b></li>
+                <li><b>Frutas Amarelas Light</b></li>
+                <li><b>Amora com Goiaba Light</b></li>
+            </ul>
+            <br>
+
+            <p>Ingredientes orgânicos.</p>
+            <p>R$ 25,00 o pote de 180g.</p>
+
+            <hr>
+
+            <div id="igeleia2">
+
+
+                <!--
+               
+
+                <h1 style="padding-top: 10px; padding-bottom: 20px;">Título</h1>
+
+                <img src="" alt="">
+
+               
+                <div>
+
+                </div>
+
+                <hr>
+
+                
+
+                <h1 style="padding-top: 10px; padding-bottom: 20px;">Título</h1>
+
+                <img src="" alt="">
+
+               
+
+                <div>
+
+                </div>
+
+                <hr>
+
+               
+
+                <h1 style="padding-top: 10px; padding-bottom: 20px;">Título</h1>
+
+                <img src="" alt="">
+
+
+               
+
+                <div>
+
+                </div>
+
+                <hr>
+
+               
+                <h1 style="padding-top: 10px; padding-bottom: 20px;">Título</h1>
+
+                <img src="" alt="">
+
+               
+
+                <div>
+
+                </div>
+
+                <hr>
+
+               
+                <h1 style="padding-top: 10px; padding-bottom: 20px;">Título</h1>
+
+                <img src="" alt="">
+
+               
+
+                <div>
+
+                </div>
+
+                <hr>
+
+
+            </div>
+
+        </div>
+    -->
+
+                <!--outros
+
+                <div id="ioutros">
+
+                    <h1>Outros Produtos</h1>
+
+                    <hr>
+
+                    <div id="ioutros2">
+
+                        foto 1
+                        <h1>Manteiga Artesanal</h1>
+                        <img src="../Imagem/manteiga artesanal bom sucesso .jpg" alt="">
+
+                        
+                        <p>Direto da fazenda para a sua mesa, sem conservantes e sem corantes. <br>
+                            Embalagem de 200g.
+                            <br>
+                            <br>
+                            R$ 9,90
+                        </p>
+
+                        <hr>
+
+                        
+                        <h1>Requeijão Cremoso</h1>
+                        <img src="../Imagem/requeijao cremoso bom sucesso.jpg" alt="">
+
+                        
+                        <p>Direto da fazenda para a sua mesa, sem conservantes e sem corantes. <br>
+                            Embalagem de 200g.
+                            <br>
+                            <br>
+                            R$ 12,50
+                        </p>
+
+                        <hr>
+
+                    
+                        <h1>Requeijão de Corte</h1>
+                        <img src="../Imagem/requeijao de corte bom sucesso.jpg" alt="">
+
+                        
+                        <p>Direto da fazenda para a sua mesa, sem conservantes e sem corantes. <br>
+                            Embalagem de 200g.
+                            <br>
+                            <br>
+                            R$ 13,70
+                        </p>
+
+
+
+
+
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+                fechamento da div principal-->
+
+            </div>
+
+
+
+    </main>
+
+
+
+
+</body>
+
+<script src="../JS/produtos.js"></script>
+
+
+</html>

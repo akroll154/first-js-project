@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/cadastro.css">
+
+
+</head>
+
+
+<body>
+
+
+    <nav>
+        <ul>
+            <li><a id="icat" style=" transition: 0.5s;
+                -o-transition: 0.5s;
+                -moz-transition: 0.5s;" href="../HTML/produtos.html">PRODUTOS</a></li>
+            <li><a id="ipro" style=" transition: 0.5s;
+                -o-transition: 0.5s;
+                -moz-transition: 0.5s;" href="../HTML/faleconosco.html">FALE CONOSCO</a></li>
+            <li><a id="ifc" style=" transition: 0.5s;
+                -o-transition: 0.5s;
+                -moz-transition: 0.5s;" href="../HTML/sobrenos.html">SOBRE NÓS</a></li>
+            <li><a id="ips" style=" transition: 0.5s;
+                    -o-transition: 0.5s;
+                    -moz-transition: 0.5s;" href="../HTML/pesquisasatisfacao.html">PESQUISA DE SATISFAÇÃO</a></li>
+            <li><a id="icad" style=" transition: 0.5s;
+                    -o-transition: 0.5s;
+                    -moz-transition: 0.5s;" href="../HTML/cadastro.html">CADASTRO</a></li>
+
+
+
+
+        </ul>
+
+        <a href="../HTML/index02.html"><img src="../Imagem/logo sem bg.png" alt=""></a>
+        <div style="margin-bottom: 0px; height: 100px; margin-top: -45px; margin-left: 25%;">
+            <a style="margin-left: 90%; text-decoration: none;" href=""><img
+                    style="height: 45px; width: 45px; margin-bottom: 0px; text-decoration: none;"
+                    src="../Imagem/shoppingcart.png" alt=""> <a id="iparagrafo"
+                    style="font-size: 20px; margin-bottom: 0px; text-decoration: none; color: rgb(226, 62, 62);"
+                    href="">0</a></a>
+
+    </nav>
+
+    <main>
+
+        <div>
+            <center>
+                <h1>Faça seu cadastro e fique por dentro de todas as novidades e vantagens!</h1>
+
+                <hr>
+
+                <form action="">
+
+                    <label for="inome2">Nome Completo:</label>
+                    <input onblur="verificarChar('inome2')" type="text" name="nome2" id="inome2">
+                    <span id="erroinome2"></span>
+                    <br>
+
+                    <label for="inomepai">Nome completo do pai:</label>
+                    <input onblur="verificarChar('inomepai')" type="text" name="nomepai" id="inomepai">
+                    <span id="erroinomepai"></span>
+                    <br>
+
+                    <label for="inomemae">Nome completo da mãe:</label>
+                    <input onblur="verificarChar('inomemae')" type="text" name="nomemae" id="inomemae">
+                    <span id="erroinomemae"></span>
+                    <br>
+
+                    <label for="icpf">CPF:</label>
+                    <input maxlength="14" onkeyup="preencherCpf('icpf')" onblur="verificarChar4('icpf')" type="text"
+                        name="cpf" id="icpf">
+                    <span id="erroicpf"></span>
+                    <br>
+
+                    <label class="cmarg2" for="irg">RG:</label>
+                    <input maxlength="12" onkeyup="preencherRg('irg')" onblur="verificarChar9('irg')" type="text"
+                        name="rg" id="irg">
+                    <span id="erroirg"></span>
+                    <br>
+
+                    <label for="idata">Data de nascimento:</label>
+                    <input onblur="verificarChar12('idata')" type="date" name="data" id="idata">
+                    <span id="errodata"></span>
+
+                    <hr>
+                    <label class="cmarg3" for="itel">Celular:</label>
+                    <input maxlength="14" onkeydown="preencherTel('itel')" onblur="verificarChar10('itel')" type="tel"
+                        name="tel" id="itel">
+                    <span id="erroitel"></span>
+                    <br>
+
+                    <hr>
+
+                    <label class="cmarg2" for="iufs">UF:</label>
+
+                    <select onblur="verificarChar3('iufs', 'isel')" name="ufs" id="iufs">
+                        <option value="isel">Selecionar</option>
+                        <option value="ac">Acre</option>
+                        <option value="al">Alagoas</option>
+                        <option value="ap">Amapá</option>
+                        <option value="am">Amazonas</option>
+                        <option value="ba">Bahia</option>
+                        <option value="ce">Ceará</option>
+                        <option value="df">Distrito Federal</option>
+                        <option value="es">Espírito Santo</option>
+                        <option value="go">Goiás</option>
+                        <option value="ma">Maranhão</option>
+                        <option value="mt">Mato Grosso</option>
+                        <option value="ms">Mato Grosso do Sul</option>
+                        <option value="mg">Minas Gerais</option>
+                        <option value="pa">Pará</option>
+                        <option value="pb">Paraíba</option>
+                        <option value="pr">Paraná</option>
+                        <option value="pe">Pernambuco</option>
+                        <option value="pi">Piauí</option>
+                        <option value="rj">Rio de Janeiro</option>
+                        <option value="rn">Rio Grande do Norte</option>
+                        <option value="rs">Rio Grande do Sul</option>
+                        <option value="ro">Rondônia</option>
+                        <option value="rr">Roraima</option>
+                        <option value="sc">Santa Catarina</option>
+                        <option value="sp">São Paulo</option>
+                        <option value="se">Sergipe</option>
+                        <option value="to">Tocantins</option>
+
+                    </select>
+                    <span id="erroiufs"></span>
+                    <br>
+
+                    <label class="cmarg2" for="icidade">Cidade:</label>
+                    <input onblur="verificarChar('icidade')" type="text" name="cidade" id="icidade">
+                    <span id="erroicidade"></span>
+                    <br>
+
+                    <label class="cmarg2" for="ibairro">Bairro:</label>
+                    <input onblur="verificarChar('ibairro')" type="text" name="bairro" id="ibairro">
+                    <span id="erroibairro"></span>
+                    <br>
+
+                    <label class="cmarg2" for="iend">Endereço:</label>
+                    <input onblur="verificarChar2('iend')" type="text" name="end" id="iend">
+                    <span id="erroiend"></span>
+                    <br>
+
+                    <label class="cmarg2" for="inum">Número:</label>
+                    <input onblur="verificarChar2('inum')" type="text" name="num" id="inum">
+                    <span id="erroinum"></span>
+                    <br>
+
+                    <label for="icomp">Complemento:</label>
+                    <input onblur="verificarChar8('icomp')" type="text" name="comp" id="icomp">
+                    <span id="erroicomp"></span>
+                    <br>
+
+
+                    <br>
+                    <hr>
+
+                    <label for="iemail2">E-mail:</label>
+                    <input onblur="verificarChar6('iemail2')" type="text" name="email2" id="iemail2">
+                    <span id="erroiemail2"></span>
+                    <br>
+
+                    <label for="isenha">Senha:</label>
+                    <input onblur="verificarChar7('isenha')" type="password" name="senha" id="isenha">
+                    <span id="erroisenha"></span>
+
+                    <hr>
+
+                    <label for="genero">Gênero:</label>
+                    <br>
+                    <br>
+
+
+                    <input onpointerout="verificarChar11()" class="cmargi" type="radio" name="genero" id="ifeminino">
+                    <label class="cmarg" for="ifeminino">Feminino</label>
+
+
+                    <input onpointerout="verificarChar11()" class="cmargi" type="radio" name="genero" id="imasculino">
+                    <label class="cmarg" for="imasculino">Masculino</label>
+
+
+                    <input onpointerout="verificarChar11()" class="cmargi" type="radio" name="genero" id="ioutro">
+                    <label class="cmarg" for="ioutro">Outro</label>
+
+                    <br>
+
+                    <span id="errogenero"></span>
+
+                    <hr>
+
+                    <input disabled onmouseover="verificarCor('ienviar')" id="ienviar"
+                        style="width: 100px; height: 45px;" type="submit" value="ENVIAR">
+
+                    <span id="erro"></span>
+
+                </form>
+
+
+        </div>
+        </center>
+
+    </main>
+
+
+
+</body>
+
+<script src="../JS/cadastro.js"></script>
+
+
+</html>
